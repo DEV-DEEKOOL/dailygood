@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+@media (min-width:768px) {
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    min-height: 100vh;
+}
+ .blackbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: black;
+    width: 40vw;
+    height: 100rem;
+    padding: 5rem;
+   
+ }
+ .hdlogo {
+    font-family: poppins;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #F6F6F6;
+    margin-bottom: 10rem;
+ }
+ #gds {
+    font-family: poppins;
+    font-size: 3.6rem;
+    font-weight: 400;
+ }
+ .intro {
+    margin-top: 20rem;
+ }
+ .intro h1 {
+    font-family: poppins;
+    font-size: 9.2rem;
+    font-weight: 700;
+    color: #F6F6F6;
+    line-height: 9.2rem;
+ }
+ .intro p {
+    font-family: poppins;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #F6F6F6;
+    line-height: 3.3rem;
+ }
+ #btn {
+    background: #F6F6F6;
+    width: 18.4rem;
+    height: 6.1rem;
+    border-radius: 2.5rem;
+ }
+ #btn a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: black;
+    border: none;
+ }
+ .whitebox {
+    width: 60vw;
+    height: 100rem;
+    background: #E6E6E6;
+ }
+ nav {
+    display: flex;
+ }
+ ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: none;
+    width: 50.6rem;
+    height: 4.3rem;
+    
+    padding: 5rem 0 10rem 2rem;
+ }
+  li {
+    float: left;
+    padding: 3rem;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+  
+  li a:hover {
+    border-bottom: 2px solid black;
+    color: black;       
+}
+.catalogue {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+}
+
+ .catalogue1 img {
+    width: 100%;
+    height: 41rem;
+    border-radius: 1.9rem;
+ }
+ .catalogue2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.9rem;
+ }
+ .catalogue1 {
+    display: flex;
+    width: 35.7rem;
+    height: 41.6rem;
+    border: 4px #F6F6F6;
+ }
+ .catalogue2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35.7rem;
+    height: 38.2rem;
+    border: 4px #F6F6F6;
+ }
+ .btnsect {
+    margin-top: 8rem;
+    margin-left: 5rem;
+ }
+ #btn1 {
+    font-family: poppins;
+    border: none;
+    background: none;
+ }
+ #btn1 a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000000;
+ }
+ #btn2 {
+    width: 12.5rem;
+    height: 4.rem;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    background: none;
+    margin-left: 2rem;
+ }
+ #btn2 a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000000;
+ }
+ .catalogue1img {
+    width: 35.7rem;
+    height: 41.6rem;
+    border-radius: 1.9rem;
+    border: 4px solid white;
+    font-family: poppins;
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000000;
+    line-height: 3.3rem;
+ }
+ .catalogue2img {
+    position: relative;
+    border: 4px solid white;
+    width: 35.7rem;
+    height: 38.2rem;
+    border-radius: 1.9rem;
+ }
+ .catalogue2text {
+    position: absolute;
+    top: 32rem;
+    left: 13rem;
+ }
+ .catalogue2text a {
+    font-family: poppins;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 2rem;
+ }
+ .catalogue2txt{
+   font-family: poppins;
+   font-size: 2.6rem;
+   font-family: 500;
+   color: #1C1C1C;
+   margin-bottom: 30rem;
+ }
+
+ #price {
+    font-family: poppins;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #1C1C1C;
+ }
+ .catalogue2text p {
+    font-family: poppins;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #1C1C1C;
+ }
+}
