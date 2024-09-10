@@ -6,17 +6,15 @@
 html {
     font-size: 62.5%;
 }
-@media (min-width:768px) {
-body {
+@media (min-width:1026px) {
+.container {
     display: flex;
+    flex-shrink: initial;
     flex-wrap: wrap;
     width: 100vw;
     min-height: 100vh;
 }
  .blackbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     background: black;
     width: 40vw;
     height: 100rem;
@@ -24,12 +22,14 @@ body {
    
  }
  .hdlogo {
-    font-family: poppins;
-    font-size: 2.6rem;
-    font-weight: 700;
-    color: #F6F6F6;
-    margin-bottom: 10rem;
-    margin-top: 2rem;
+   max-width: 25rem;
+   height: 5rem;
+   font-family: poppins;
+   font-size: 2.6rem;
+   font-weight: 700;
+   color: #F6F6F6;
+   margin-bottom: 10rem;
+   margin-top: 2rem;
  }
  #gds {
     font-family: poppins;
@@ -38,6 +38,8 @@ body {
  }
  .intro {
     margin-top: 20rem;
+    width: 40rem;
+    height: 35rem;
  }
  .intro h1 {
     font-family: poppins;
@@ -111,9 +113,14 @@ body {
     flex-wrap: wrap;
     padding-top: 5rem;
     height:150vh;
-
 }
-
+.catalogue1 p {
+   font-family: poppins;
+   font-size: 2.4rem;
+   font-weight: 400;
+   color: #1C1C1C;
+   margin-top: 5rem;
+}
  .catalogue1 img {
     width: 100%;
     height: 41rem;
@@ -126,10 +133,11 @@ body {
  }
  .catalogue1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
     width: 35.7rem;
-    height: 41.6rem;
+    height: 52.6rem;
     border: 4px #F6F6F6;
  }
  .catalogue2 {
@@ -137,12 +145,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 35.7rem;
-    height: 38.2rem;
+    height: 80.2rem;
     border: 4px #F6F6F6;
+    
  }
  .btnsect {
-    margin-top: 8rem;
-    margin-left: 5rem;
+   display: flex;
+   align-items: center;
+   width: 21rem;
+   height: 5rem;
+   margin-top: 7rem;
+   margin-left: 5rem;
  }
  #btn1 {
     font-family: poppins;
@@ -188,6 +201,7 @@ body {
     width: 35.7rem;
     height: 38.2rem;
     border-radius: 1.9rem;
+    margin-bottom: 15rem;
  }
  .catalogue2text {
     position: absolute;
