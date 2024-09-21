@@ -60,6 +60,7 @@ html {
     width: 18.4rem;
     height: 6.1rem;
     border-radius: 2.5rem;
+    margin-top: 10rem;
  }
  #btn a {
     text-decoration: none;
@@ -236,3 +237,116 @@ html {
     color: #1C1C1C;
  }
 }
+@media (max-width: 768px) {
+   .container {
+     flex-direction: column;
+     width: 100%;
+     padding: 2rem;
+   }
+ 
+   .blackbox, .whitebox {
+     width: 100%;
+     height: auto;
+     padding: 2rem;
+   }
+ 
+   .hdlogo {
+     font-size: 2rem;
+     height: auto;
+     margin-bottom: 5rem;
+   }
+ 
+   #gds {
+     font-size: 2.8rem;
+   }
+ 
+   .intro {
+     width: 100%;
+     height: auto;
+     margin-top: 10rem;
+   }
+ 
+   .intro h1 {
+     font-size: 5.2rem;
+     line-height: 5.2rem;
+   }
+ 
+   .intro p {
+     font-size: 1.8rem;
+     line-height: 2.5rem;
+   }
+ 
+   #btn {
+     width: 100%;
+     height: 5rem;
+     margin-top: 5rem;
+   }
+ 
+   #btn a {
+     font-size: 1.8rem;
+   }
+ 
+   nav ul {
+     display: block;
+     padding: 2rem;
+     width: 100%;
+   }
+ 
+   nav ul li {
+     float: none;
+     width: 100%;
+     text-align: center;
+     padding: 1rem 0;
+   }
+ 
+   nav ul li a {
+     font-size: 2rem;
+   }
+ 
+   .catalogue {
+     flex-direction: column;
+     align-items: center;
+     height: auto;
+     padding-top: 3rem;
+   }
+ 
+   .catalogue1, .catalogue2 {
+     width: 90%;
+     height: auto;
+     margin-bottom: 5rem;
+   }
+ 
+   .catalogue1 img, .catalogue2 img {
+     height: auto;
+     width: 100%;
+   }
+ 
+   .btnsect {
+     width: 100%;
+     justify-content: center;
+     margin-left: 0;
+   }
+ 
+   #btn1, #btn2 {
+     width: 100%;
+     text-align: center;
+   }
+ 
+   .catalogue2text {
+     top: auto;
+     left: auto;
+     bottom: 2rem;
+     right: 2rem;
+   }
+ 
+   #price {
+     font-size: 3.2rem;
+   }
+ 
+   .catalogue2text p {
+     font-size: 2rem;
+   }
+ }
+
+
+ @media only screen and (max-width: 767px) {
